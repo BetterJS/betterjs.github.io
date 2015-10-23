@@ -15,7 +15,7 @@ a
 }
 a:hover
 {
-    color: #188EEE;
+    color: #188eee;
 }
 
 body
@@ -66,6 +66,32 @@ body
 
     text-align: center;
 
+    color: #999;
     border-top: 1px solid #e0e0e0;
-    background: #f1f1f1;
+    background: #444;
+}
+.site-footer a
+{
+    padding: 0 10px 0 0;
+
+    color: #999;
+}
+.site-footer a:hover
+{
+    color: #188eee;
+}
+.site-footer a:before
+{
+    display: inline-block;
+
+    height: 12px;
+    padding-right: 10px;
+
+    content: '';
+
+    border-left: 1px solid #999;
+}
+.site-footer a:first-child:before
+{
+    display: none;
 }
