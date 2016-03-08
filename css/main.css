@@ -18,6 +18,12 @@ a:hover
     color: #188eee;
 }
 
+html,body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 body
 {
     background: #fff;
@@ -49,7 +55,7 @@ body
     position: absolute;
     top: 0;
     right: 10%;
-
+    font-size: 12px;
     text-align: right;
 }
 
@@ -57,7 +63,7 @@ body
 {
     line-height: 2em;
 
-    position: fixed;
+   // position: fixed;
     bottom: 0;
     left: 0;
 
@@ -94,4 +100,35 @@ body
 .site-footer a:first-child:before
 {
     display: none;
+}
+
+.logo h1{
+    margin-left: 50px;
+}
+
+
+main {
+    padding-top:20px;
+    margin:0 auto;
+    width : 1024px;
+}
+
+section {
+    padding-top:30px;
+    padding-left:15px;
+    color:#3c3c3c;
+}
+
+section .img-wrap{
+  text-align: center;
+  padding-top:10px;
+}
+
+section img{
+  width:90%;
+}
+
+section .sub_title{
+    padding-top:30px;
+    padding-left:20px;
 }
