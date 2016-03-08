@@ -106,6 +106,10 @@ body
     margin-left: 50px;
 }
 
+.logo:active , .logo:hover{
+  color: #3d3d3d;
+}
+
 
 main {
     padding-top:20px;
